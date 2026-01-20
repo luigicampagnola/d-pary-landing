@@ -47,9 +47,9 @@ export function Header() {
             <Image
               src="/logo.svg"
               alt="D'Pary"
-              width={120}
-              height={40}
-              className="h-10 w-auto object-contain dark:hidden"
+              width={160}
+              height={160}
+              className="h-14 sm:h-16 w-auto object-contain dark:hidden"
               style={{
                 filter: 'brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(5000%) hue-rotate(220deg)',
               }}
@@ -58,9 +58,9 @@ export function Header() {
             <Image
               src="/logo.svg"
               alt="D'Pary"
-              width={120}
-              height={40}
-              className="h-10 w-auto object-contain hidden dark:block"
+              width={160}
+              height={160}
+              className="h-14 sm:h-16 w-auto object-contain hidden dark:block"
               style={{
                 filter: 'brightness(0) saturate(100%) invert(76%) sepia(50%) saturate(500%) hue-rotate(5deg) brightness(95%)',
               }}

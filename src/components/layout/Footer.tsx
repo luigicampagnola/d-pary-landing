@@ -67,9 +67,9 @@ export function Footer() {
               <Image
                 src="/logo.svg"
                 alt="D'Pary"
-                width={120}
-                height={40}
-                className="h-10 w-auto object-contain"
+                width={160}
+                height={160}
+                className="h-16 w-auto object-contain"
                 style={{
                   filter: 'brightness(0) saturate(100%) invert(76%) sepia(50%) saturate(500%) hue-rotate(5deg) brightness(95%)',
                 }}

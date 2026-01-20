@@ -152,9 +152,9 @@ export function Hero() {
                       <Image
                         src="/logo.svg"
                         alt="D'Pary"
-                        width={80}
-                        height={28}
-                        className="h-7 w-auto object-contain"
+                        width={100}
+                        height={100}
+                        className="h-10 w-auto object-contain"
                         style={{
                           filter: 'brightness(0) saturate(100%) invert(76%) sepia(50%) saturate(500%) hue-rotate(5deg) brightness(95%)',
                         }}
